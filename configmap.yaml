@@ -6,7 +6,7 @@ metadata:
   namespace: gitops-lab
 data:
   index.html: |
-    Ini tampilan dari NGINX dan nama saya Malik
+    Ini tampilan dari NGINX dan nama saya Malik diupdate melalui ArgoCD
 ---
 apiVersion: v1
 kind: ConfigMap
@@ -15,4 +15,4 @@ metadata:
   namespace: gitops-lab
 data:
   index.html: |
-    Ini tampilan dari HTTPD dan nama saya Malik
+    Ini tampilan dari HTTPD dan nama saya Malik diupdate melalui ArgoCD
